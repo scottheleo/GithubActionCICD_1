@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_445116_githubact.test_git_1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test_git_1</name>
+        <script><![CDATA[var test_git_1 = Class.create();
+test_git_1.prototype = {
+    initialize: function() {
+    },
+	
+	/**SNDOC
+	@name methodName
+	@description description
+
+	@param {type} [paramName] - description
+
+	@example
+	example here
+
+	@returns {type} description
+	*/
+	test: function(){
+		gs.info('Hello GitHub');
+	},
+	
+	// test no.1
+	
+	// here update no.3
+
+    type: 'test_git_1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-15 05:03:21</sys_created_on>
+        <sys_id>ccf8919b2f722010b7cda1fef699b62b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test_git_1</sys_name>
+        <sys_package display_value="GithubActionCICD_1" source="x_445116_githubact">a498411f2f322010b7cda1fef699b687</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GithubActionCICD_1">a498411f2f322010b7cda1fef699b687</sys_scope>
+        <sys_update_name>sys_script_include_ccf8919b2f722010b7cda1fef699b62b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-15 05:30:17</sys_updated_on>
+    </sys_script_include>
+</record_update>
